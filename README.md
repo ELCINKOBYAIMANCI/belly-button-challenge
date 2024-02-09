@@ -1,39 +1,60 @@
+# Belly Button Biodiversity Dashboard
 
-## Belly Button Biodiversity Dashboard Assignment
+## Objective
 
-##Objective
-Your goal is to utilize Plotly and D3.js to visualize the dataset in a user-friendly manner, enabling users to explore the diversity of microbes in human belly buttons.
+This project aims to visualize the Belly Button Biodiversity dataset using Plotly and D3.js, allowing users to explore the diverse microbial life that colonizes human navels.
 
-##Requirements
+## Requirements
 
-Data Integration
--Employ the D3 library to fetch data from the samples.json file.
+### Data Integration
 
-Visualization Components
--Horizontal Bar Chart
--Implement a dropdown menu for selecting an individual's ID.
--Display the top 10 OTUs found in the selected individual as a horizontal bar chart.
--sample_values should represent the bar lengths.
--otu_ids should serve as the bar labels.
--otu_labels should be shown as hovertext.
--Bubble Chart
--Create a bubble chart to represent each sample.
--X-axis values: otu_ids
--Y-axis values: sample_values
--Marker size: sample_values
--Marker colors: otu_ids
--Text values: otu_labels
--Demographic Information Panel
--Show the selected individual's demographic information.
--Display each demographic detail as a key-value pair.
--Interactive Dashboard
--Ensure the visualizations and demographic information update in response to the selection of a new sample.
+- Utilize D3.js to load data from the `samples.json` file.
 
-##Advanced Challenge (Optional)
-Gauge Chart
--Integrate a Gauge Chart to depict the weekly washing frequency of the selected individual.
--Adapt the gauge chart to represent values from 0 to 9.
--Ensure the gauge chart updates with the selection of a new sample.
+### Visualization Components
 
-Deployment
--Deploy your dashboard to a free hosting service, such as GitHub Pages.
+#### Horizontal Bar Chart
+
+- Implement a dropdown menu for selecting an individual's ID.
+- Display the top 10 OTUs found in the selected individual as a horizontal bar chart:
+  - `sample_values` for bar lengths
+  - `otu_ids` for bar labels
+  - `otu_labels` for hovertext
+
+#### Bubble Chart
+
+- Create a bubble chart for each sample:
+  - X values: `otu_ids`
+  - Y values: `sample_values`
+  - Marker size: `sample_values`
+  - Marker colors: `otu_ids`
+  - Text values: `otu_labels`
+
+#### Demographic Information Panel
+
+- Display the selected individual's demographic information as key-value pairs.
+
+#### Interactive Dashboard
+
+- Update visualizations and demographic information based on the selected sample.
+
+### Advanced Challenge (Optional)
+
+#### Gauge Chart
+
+- Incorporate a Gauge Chart to show the weekly washing frequency of the selected individual.
+- Modify the chart to accommodate values from 0 to 9.
+- Update the gauge chart when a new sample is selected.
+
+## Deployment
+
+Deploy your dashboard to a free hosting service, such as GitHub Pages, and provide links to the deployment and your GitHub repository.
+
+## Setup
+
+To set up this project locally, follow these steps:
+
+1. Clone the repository to your local machine.
+2. Navigate to the project directory.
+3. Open the `index.html` file in a web browser to view the dashboard.
+
+
