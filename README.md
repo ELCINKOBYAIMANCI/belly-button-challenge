@@ -56,6 +56,3 @@ To set up this project locally, follow these steps:
 1. Clone the repository to your local machine.
 2. Navigate to the project directory.
 3. Open the `index.html` file in a web browser to view the dashboard.
-
-
-ajhsdjksahdkajhdadljasdlkasdasdasdsa
